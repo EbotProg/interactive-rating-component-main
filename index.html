@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <div class="border-rounded-50 bg-neutral-300-lighter align-self-start p-300">
+      <img class="star_img" src="./images/icon-star.svg" alt="">
+    </div>
+
+    <h2 class="fs-300 fw-bold clr-neutral-100">How did we do?</h2>
+
+    <p class="clr-neutral-200">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+    <div class="flex-row space-between">
+      <p class="border-rounded-50 clr-neutral-200 fw-bold rating" id="rating_1">1</p>
+      <p class="border-rounded-50 clr-neutral-200 fw-bold rating" id="rating_2">2</p>
+      <p class="border-rounded-50 clr-neutral-200 fw-bold rating" id="rating_3">3</p>
+      <p class="border-rounded-50 clr-neutral-200 fw-bold rating" id="rating_4">4</p>
+      <p class="border-rounded-50 clr-neutral-200 fw-bold rating" id="rating_5">5</p>
+    </div>
+
+    <button class="bg-primary clr-neutral-300 fs-100 fw-bold uppercase p-300 br-500 border-none submit_btn" id="submit_btn" onclick="handleSubmit()">submit</button>
+  </main>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Achale Ebot Oma</a>.
+  </div> -->
+  <script src="index.js"></script>
+</body>
+</html>
